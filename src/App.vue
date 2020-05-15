@@ -1,7 +1,7 @@
 <template>
 <div>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <router-link to="/" class="navbar-brand">OpelKingkong</router-link>
+      <router-link to="/" class="navbar-brand">BarBarZaar</router-link>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -12,10 +12,22 @@
             <router-link to="/" class="nav-link">Home</router-link>
           </li>
           <li class="nav-item">
+            <router-link to="/about" class="nav-link">About</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/meals" class="nav-link">Meals</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/area" class="nav-link">Area</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/category" class="nav-link">Kategori</router-link>
+          </li>
+          <li class="nav-item">
             <router-link to="/search" class="nav-link">Search</router-link>
           </li>
             <li class="nav-item">
-            <router-link to="/wishlist" class="nav-link">Wishlist</router-link>
+            <router-link to="/favorit" class="nav-link">Favorit</router-link>
           </li>
         </ul>
       </div>
